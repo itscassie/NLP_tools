@@ -1,7 +1,13 @@
 # NLP_tools
-Compute BLEU and ROUGE scores
+Compute BLEU and ROUGE scores for Chinese!
 
 (The original rouge tool doesn't support evaluation for chinese corpus) 
+
+## Install
+
+```
+pip install git+https://github.com/yuyusica/NLP_tools.git
+```
 
 ## Example
 ```
