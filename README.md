@@ -1,14 +1,20 @@
 # NLP_tools
-Compute BLEU and ROUGE scores
+Compute BLEU and ROUGE scores for Chinese!
 
 (The original rouge tool doesn't support evaluation for chinese corpus) 
 
+## Install
+
+```
+pip install git+https://github.com/yuyusica/NLP_tools.git
+```
+
 ## Example
 ```
-import rouge
-import bleu
-bleu = bleu.BLEU()
-rouge = rouge.Rouge()
+from nlp_tools import BLEU, Rouge
+
+bleu = BLEU()
+rouge = Rouge()
 
 ref_file = "path_to_reference_file"
 system_file = "path_to_predict_file"
